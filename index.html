@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GUESS9000</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+
+      <div id='autoplay-parent'>
+        <h4 id='halsez'>
+          <p id='pcenter'></p>
+        </h4>
+        <button id='autoplay'></button>
+      </div>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <button id='ufo-roof' class="btn btn-default">GUESS</button>
+          <p id='ufo-body'>I am thinking of a number between 1 and 100...</p>
+        </div>
+        <div id='subtitle-parent'>
+          <div id='subtitle-jup'>
+            <p id='pcenter'></p>
+          </div>
+          <div id='subtitle-sat'>
+            <p id='pcenter'></p>
+          </div>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' placeholder="?" maxlength='3' autofocus=autofocus></input>
+            <button id='hint' class="btn btn-default">HELP</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id='menu-btns'>
+            <button id='reset' class="btn btn-large center">RESET</button>
+          </div>
+
+        </div>
+      
+      </div>
+
+    <div id='footer' class='center container'>
+
+        <div class='row'>
+        
+          <div class='col-sm-6'>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-6'>
+            <h4>Project by Mike Luz</h4>
+          </div>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="js/GuessingGame.js"></script>
+  </body>
+</html>
